@@ -113,7 +113,7 @@ export const translations = {
       },
       pagination: { prev: 'Anterior', next: 'Próxima', page: (n) => `Página ${n}` },
       items: [
-        { id: 'cert-1', title: 'JavaScript com Node.js' },
+        { id: 'cert-1', title: 'JavaScript com Node.js: criando sua primeira biblioteca' },
         { id: 'cert-2', title: 'Next.js: conheça o framework React' },
         { id: 'cert-3', title: 'React: desenvolvendo com JavaScript' },
         { id: 'cert-4', title: 'Praticando Python: condicionais if, elif e else' },
@@ -313,7 +313,7 @@ export const translations = {
       },
       pagination: { prev: 'Previous', next: 'Next', page: (n) => `Page ${n}` },
       items: [
-        { id: 'cert-1', title: 'JavaScript with Node.js' },
+        { id: 'cert-1', title: 'JavaScript with Node.js: building your first library' },
         { id: 'cert-2', title: 'Next.js: get to know the React framework' },
         { id: 'cert-3', title: 'React: developing with JavaScript' },
         { id: 'cert-4', title: 'Practicing Python: if, elif and else conditionals' },
@@ -512,7 +512,7 @@ export const translations = {
       },
       pagination: { prev: 'Anterior', next: 'Siguiente', page: (n) => `Página ${n}` },
       items: [
-        { id: 'cert-1', title: 'JavaScript con Node.js' },
+        { id: 'cert-1', title: 'JavaScript con Node.js: creando tu primera biblioteca' },
         { id: 'cert-2', title: 'Next.js: conoce el framework de React' },
         { id: 'cert-3', title: 'React: desarrollando con JavaScript' },
         { id: 'cert-4', title: 'Practicando Python: condicionales if, elif y else' },

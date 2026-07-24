@@ -5,13 +5,20 @@
  * `year`/`month` (mês 1-12) alimentam a formatação de data por idioma via
  * Intl.DateTimeFormat em Certifications.jsx — evita traduzir nomes de mês
  * manualmente em 3 idiomas.
- * `hours` (opcional) vem da carga horária impressa em cada certificado —
- * ausente apenas em cert-1, cujo PDF ainda não foi recebido.
+ * `hours` (opcional) vem da carga horária impressa em cada certificado.
  * `credentialUrl` (opcional) aponta para o PDF do certificado em
  * public/certificates/ — quando ausente, o card não mostra o link.
  */
 export const certifications = [
-  { id: 'cert-1', issuer: 'Alura', category: 'javascript', year: 2026, month: 2 },
+  {
+    id: 'cert-1',
+    issuer: 'Alura',
+    category: 'javascript',
+    year: 2026,
+    month: 2,
+    hours: 10,
+    credentialUrl: '/certificates/cert-01-javascript-nodejs.pdf',
+  },
   {
     id: 'cert-2',
     issuer: 'Alura',
