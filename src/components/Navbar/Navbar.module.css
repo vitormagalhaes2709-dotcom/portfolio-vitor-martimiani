@@ -1,0 +1,244 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-navbar);
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  background: rgba(10, 12, 17, 0.6);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid transparent;
+  transition:
+    background var(--transition-base),
+    border-color var(--transition-base);
+}
+
+.navbar.scrolled {
+  background: rgba(10, 12, 17, 0.85);
+  border-bottom-color: var(--color-border);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  height: 100%;
+}
+
+.brand {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: var(--fs-lg);
+  color: var(--color-text);
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+}
+
+/* Navegação de desktop: fica em fluxo normal dentro da navbar. Some abaixo
+   de 861px, dando lugar ao painel mobile (portalizado, ver .mobilePanel). */
+.links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.links ul {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.links a {
+  position: relative;
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  padding-block: var(--space-2);
+  transition: color var(--transition-fast);
+}
+
+.links a:hover {
+  color: var(--color-text);
+}
+
+.links a.active {
+  color: var(--color-accent);
+}
+
+.links a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  border-radius: var(--radius-full);
+  background: var(--color-accent);
+}
+
+.desktopExtras {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--fs-xs);
+  color: var(--color-text-secondary);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+
+.badgeDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-success);
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.18);
+}
+
+.langSwitch {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: 3px;
+  gap: 2px;
+}
+
+.langSwitch button {
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.langSwitch button:hover {
+  color: var(--color-text);
+}
+
+.langSwitch button.langActive {
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.menuToggle span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--color-text);
+  border-radius: var(--radius-full);
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.menuToggleOpen span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.menuToggleOpen span:nth-child(2) {
+  opacity: 0;
+}
+.menuToggleOpen span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/*
+ * Painel mobile: renderizado via portal em document.body (ver Navbar.jsx).
+ * Precisa ficar fora da navbar porque backdrop-filter na navbar cria um
+ * containing block para descendentes position:fixed, o que confinaria este
+ * painel à altura de 76px da navbar em vez de cobrir a viewport inteira.
+ * Escondido por padrão (só existe de fato abaixo de 861px).
+ */
+.mobilePanel {
+  display: none;
+}
+
+.mobileExtras {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+@media (max-width: 860px) {
+  .links {
+    display: none;
+  }
+
+  .desktopExtras {
+    display: none;
+  }
+
+  .menuToggle {
+    display: flex;
+  }
+
+  .mobilePanel {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-7);
+    position: fixed;
+    top: var(--navbar-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: var(--z-modal);
+    background: var(--color-bg);
+    padding: var(--space-7) var(--container-padding);
+    transform: translateX(100%);
+    transition: transform var(--transition-slow);
+    overflow-y: auto;
+  }
+
+  .mobilePanelOpen {
+    transform: translateX(0);
+  }
+
+  .mobilePanel ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-5);
+  }
+
+  .mobilePanel a {
+    position: relative;
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    color: var(--color-text-secondary);
+  }
+
+  .mobilePanel a:hover {
+    color: var(--color-text);
+  }
+
+  .mobilePanel a.active {
+    color: var(--color-accent);
+  }
+}

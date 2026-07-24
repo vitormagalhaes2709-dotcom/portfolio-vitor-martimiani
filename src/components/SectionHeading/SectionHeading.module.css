@@ -1,0 +1,33 @@
+.wrapper {
+  max-width: 640px;
+  margin: 0 auto var(--space-8);
+  text-align: center;
+}
+
+.wrapper.left {
+  margin-inline: 0;
+  text-align: left;
+}
+
+.kicker {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-3);
+}
+
+.heading {
+  font-size: var(--fs-2xl);
+  color: var(--color-text);
+}
+
+.subheading {
+  margin-top: var(--space-4);
+  font-size: var(--fs-md);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-relaxed);
+}
