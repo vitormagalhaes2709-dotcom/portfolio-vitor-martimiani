@@ -8,6 +8,9 @@
   align-items: flex-start;
   flex-wrap: wrap;
   gap: var(--space-5);
+  /* Sem isso, os stat pills (171 horas / 21 certificados) encostavam direto
+     nos botões de filtro logo abaixo — não tinham margem nenhuma entre eles. */
+  margin-bottom: var(--space-5);
 }
 
 .statPills {
