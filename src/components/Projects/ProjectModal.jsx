@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router';
 import styles from './ProjectModal.module.css';
 
 export default function ProjectModal({
@@ -101,9 +102,19 @@ export default function ProjectModal({
           </div>
 
           <div className={styles.actions}>
-            {project.link && (
+            {project.link && project.linkType === 'internal' && (
+              <Link to={project.link} className={styles.primaryBtn} onClick={onClose}>
+                {modalText.viewProject}
+              </Link>
+            )}
+            {project.link && project.linkType !== 'internal' && (
               <a href={project.link} target="_blank" rel="noreferrer" className={styles.primaryBtn}>
                 {modalText.viewProject}
+              </a>
+            )}
+            {project.repo && (
+              <a href={project.repo} target="_blank" rel="noreferrer" className={styles.secondaryBtn}>
+                {modalText.viewCode}
               </a>
             )}
             {project.video && (

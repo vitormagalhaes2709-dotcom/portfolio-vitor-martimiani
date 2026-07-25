@@ -24,7 +24,27 @@
   --color-accent-2-soft: rgba(129, 140, 248, 0.14);
 
   --color-success: #4ade80;
+  --color-warning: #eab308;
   --color-danger: #f87171;
+
+  /* ---- Clima (página /clima): tons derivados da mesma paleta escura acima,
+     usados só como glow de fundo por condição — nunca como texto/ícone sólido. ---- */
+  --color-weather-sun: #f7c948;
+  --color-weather-sun-soft: rgba(247, 201, 72, 0.16);
+  --color-weather-moon: #c7d2fe;
+  --color-weather-moon-soft: rgba(199, 210, 254, 0.14);
+  --color-weather-rain: #60a5fa;
+  --color-weather-rain-soft: rgba(96, 165, 250, 0.18);
+  --color-weather-storm: #a78bfa;
+  --color-weather-storm-soft: rgba(167, 139, 250, 0.2);
+  --color-weather-snow: #e0f2fe;
+  --color-weather-snow-soft: rgba(224, 242, 254, 0.14);
+  --color-weather-fog: #94a3b8;
+  --color-weather-fog-soft: rgba(148, 163, 184, 0.16);
+  --color-weather-cloud: #64748b;
+  --color-weather-cloud-soft: rgba(100, 116, 139, 0.16);
+  --color-weather-dusk: #fb923c;
+  --color-weather-dusk-soft: rgba(251, 146, 60, 0.22);
 
   --gradient-hero: radial-gradient(
       60% 60% at 80% 10%,

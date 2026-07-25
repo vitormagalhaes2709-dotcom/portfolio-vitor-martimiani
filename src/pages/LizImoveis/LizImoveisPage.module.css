@@ -1,0 +1,323 @@
+.page {
+  min-height: 100svh;
+  background: var(--color-bg);
+}
+
+.header {
+  padding-block: var(--space-5);
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  color: var(--color-text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.back:hover {
+  color: var(--color-accent);
+}
+
+.demoNote {
+  margin: 0 0 var(--space-5);
+}
+
+.demoNote span {
+  display: block;
+  padding: var(--space-3) var(--container-padding);
+  background: var(--color-accent-soft);
+  color: var(--color-text-secondary);
+  font-size: var(--fs-sm);
+  text-align: center;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-3);
+}
+
+.section {
+  padding-block: var(--space-8);
+}
+
+.sectionAlt {
+  background: var(--color-bg-alt);
+}
+
+.sectionHeading {
+  max-width: 640px;
+  margin-bottom: var(--space-7);
+}
+
+.sectionHeading h2 {
+  font-size: var(--fs-2xl);
+  color: var(--color-text);
+}
+
+/* ============ Hero ============ */
+.hero {
+  position: relative;
+  padding-block: var(--space-8);
+  overflow: hidden;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroBg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, var(--color-bg) 0%, rgba(10, 12, 17, 0.78) 45%, rgba(10, 12, 17, 0.4) 100%),
+    linear-gradient(0deg, rgba(10, 12, 17, 0.5) 0%, transparent 30%);
+}
+
+.heroInner {
+  position: relative;
+  max-width: 640px;
+}
+
+.heroTitle {
+  font-size: var(--fs-4xl);
+  color: var(--color-text);
+}
+
+.heroLead {
+  margin-top: var(--space-5);
+  font-size: var(--fs-md);
+  color: var(--color-text-secondary);
+  max-width: 520px;
+  line-height: var(--lh-relaxed);
+}
+
+/* ============ Imóveis em destaque ============ */
+.listingsGrid {
+  display: grid;
+  /* min(280px, 100%): sem isso, minmax(280px, 1fr) força a coluna a 280px
+     mesmo numa tela mais estreita — o card estoura a largura da viewport. */
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: var(--space-5);
+}
+
+.propertyCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition:
+    transform var(--transition-fast),
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+/* Mesmo tratamento das pills de skills (subir + borda accent) — sem isso o
+   card só trocava a foto no hover, sem nenhum feedback visual de "isto é
+   interativo". :focus-visible replica pra quem navega por teclado (o mesmo
+   evento que já dispara o ciclo de fotos). */
+.propertyCard:hover,
+.propertyCard:focus-visible {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-md);
+}
+
+.propertyImageWrap {
+  position: relative;
+  aspect-ratio: 4 / 3;
+}
+
+.propertyImageWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.propertyBadge {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  background: var(--color-accent);
+  color: var(--color-accent-contrast);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  padding: 2px var(--space-3);
+  border-radius: var(--radius-full);
+}
+
+.propertyBody {
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.propertyPrice {
+  font-size: var(--fs-lg);
+  font-weight: 800;
+  color: var(--color-accent);
+}
+
+.propertyBody h3 {
+  font-size: var(--fs-md);
+  color: var(--color-text);
+}
+
+.propertyAddress {
+  color: var(--color-text-muted);
+  font-size: var(--fs-xs);
+}
+
+.propertySpecs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin-top: var(--space-3);
+  font-size: var(--fs-xs);
+  color: var(--color-text-secondary);
+}
+
+.propertySpecs li {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.specIcon {
+  width: 14px;
+  height: 14px;
+  color: var(--color-text-muted);
+}
+
+/* ============ Plantas ============ */
+.plansGrid {
+  display: grid;
+  /* min(200px, 100%): idem — trava o mínimo no tamanho real da viewport. */
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  gap: var(--space-5);
+}
+
+.planCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition:
+    transform var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.planCard:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+}
+
+.planCard img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.planCard h3 {
+  font-size: var(--fs-sm);
+  color: var(--color-text);
+  margin: var(--space-4) var(--space-4) var(--space-2);
+}
+
+.planCard p {
+  margin: 0 var(--space-4) var(--space-4);
+  font-size: var(--fs-xs);
+  color: var(--color-text-muted);
+}
+
+/* ============ Por que a Liz Imóveis ============ */
+.whyUsGrid {
+  display: grid;
+  /* min(220px, 100%): idem — trava o mínimo no tamanho real da viewport. */
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: var(--space-5);
+}
+
+.whyUsCard {
+  padding: var(--space-6) var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.whyUsIcon {
+  display: block;
+  width: 28px;
+  height: 28px;
+  color: var(--color-accent);
+  margin-bottom: var(--space-5);
+}
+
+.whyUsCard h3 {
+  font-size: var(--fs-md);
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+}
+
+.whyUsCard p {
+  color: var(--color-text-secondary);
+  font-size: var(--fs-sm);
+}
+
+/* ============ CTA ============ */
+.ctaSection {
+  padding-block: var(--space-8);
+  text-align: center;
+  max-width: 560px;
+}
+
+.ctaSection h2 {
+  font-size: var(--fs-2xl);
+  color: var(--color-text);
+}
+
+.ctaSection > p {
+  margin-top: var(--space-3);
+  color: var(--color-text-secondary);
+}
+
+.ctaDisabledNote {
+  margin-top: var(--space-5);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--color-text-muted);
+}
+
+.sourceNote {
+  padding: 0 var(--container-padding) var(--space-9);
+  max-width: var(--container-width);
+  margin-inline: auto;
+  font-size: var(--fs-xs);
+  color: var(--color-text-muted);
+}
+
+.sourceNote a {
+  color: var(--color-text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.sourceNote a:hover {
+  color: var(--color-accent);
+}

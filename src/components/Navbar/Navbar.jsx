@@ -72,7 +72,6 @@ export default function Navbar() {
         </nav>
 
         <div className={styles.desktopExtras}>
-          <AvailabilityBadge label={t('nav.available')} />
           <LanguageSwitch lang={lang} setLang={setLang} />
         </div>
 
@@ -118,22 +117,12 @@ export default function Navbar() {
           </nav>
 
           <div className={styles.mobileExtras}>
-            <AvailabilityBadge label={t('nav.available')} />
             <LanguageSwitch lang={lang} setLang={setLang} />
           </div>
         </div>,
         document.body,
       )}
     </header>
-  );
-}
-
-function AvailabilityBadge({ label }) {
-  return (
-    <span className={styles.badge}>
-      <span className={styles.badgeDot} aria-hidden="true" />
-      {label}
-    </span>
   );
 }
 

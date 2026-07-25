@@ -1,30 +1,19 @@
+import { Routes, Route } from 'react-router';
 import { LanguageProvider } from './i18n/LanguageContext';
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import Services from './components/Services/Services';
-import Skills from './components/Skills/Skills';
-import About from './components/About/About';
-import Certifications from './components/Certifications/Certifications';
-import Projects from './components/Projects/Projects';
-import CTA from './components/CTA/CTA';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
+import WeatherPage from './pages/Weather/WeatherPage';
+import PedidosPage from './pages/Pedidos/PedidosPage';
+import LizImoveisPage from './pages/LizImoveis/LizImoveisPage';
 
 function App() {
   return (
     <LanguageProvider>
-      <Navbar />
-      <main>
-        <Hero />
-        <Services />
-        <Skills />
-        <About />
-        <Certifications />
-        <Projects />
-        <CTA />
-        <Contact />
-      </main>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/clima" element={<WeatherPage />} />
+        <Route path="/pedidos" element={<PedidosPage />} />
+        <Route path="/liz-imoveis" element={<LizImoveisPage />} />
+      </Routes>
     </LanguageProvider>
   );
 }

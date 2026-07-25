@@ -1,0 +1,2385 @@
+{
+  "geradoEm": "2026-07-24T19:52:53.390777",
+  "kpis": {
+    "periodoInicio": "2025-01-01",
+    "periodoFim": "2026-06-25",
+    "totalPedidos": 1000,
+    "totalClientes": 60,
+    "receitaTotalPaga": 2451241.2,
+    "ticketMedioPago": 7428.0,
+    "taxaCancelamentoPct": 33.3,
+    "taxaPendentePct": 33.7,
+    "categoriaTopReceita": "Monitor",
+    "estadoTopReceita": "SP",
+    "vendedorTopReceita": "Marcos"
+  },
+  "resumoMensal": [
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 4,
+      "receita_total": 2813.0,
+      "pedidos_total": 1,
+      "ticket_medio": 2813.0
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Headset",
+      "estado": "RJ",
+      "quantidade_total": 4,
+      "receita_total": 7255.48,
+      "pedidos_total": 1,
+      "ticket_medio": 7255.48
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 1,
+      "receita_total": 2944.39,
+      "pedidos_total": 1,
+      "ticket_medio": 2944.39
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Monitor",
+      "estado": "MG",
+      "quantidade_total": 7,
+      "receita_total": 4222.16,
+      "pedidos_total": 2,
+      "ticket_medio": 2111.08
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 6,
+      "receita_total": 12976.19,
+      "pedidos_total": 2,
+      "ticket_medio": 6488.09
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 2,
+      "receita_total": 9237.6,
+      "pedidos_total": 1,
+      "ticket_medio": 9237.6
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 4,
+      "receita_total": 5953.74,
+      "pedidos_total": 2,
+      "ticket_medio": 2976.87
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 399.9,
+      "pedidos_total": 1,
+      "ticket_medio": 399.9
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Mouse",
+      "estado": "RJ",
+      "quantidade_total": 2,
+      "receita_total": 2054.22,
+      "pedidos_total": 1,
+      "ticket_medio": 2054.22
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 1,
+      "receita_total": 3289.26,
+      "pedidos_total": 1,
+      "ticket_medio": 3289.26
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 5,
+      "receita_total": 9056.53,
+      "pedidos_total": 2,
+      "ticket_medio": 4528.26
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Teclado",
+      "estado": "BA",
+      "quantidade_total": 5,
+      "receita_total": 8139.15,
+      "pedidos_total": 1,
+      "ticket_medio": 8139.15
+    },
+    {
+      "ano_mes": "2025-01",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 5120.02,
+      "pedidos_total": 2,
+      "ticket_medio": 2560.01
+    },
+    {
+      "ano_mes": "2025-02",
+      "categoria": "Headset",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 5463.6,
+      "pedidos_total": 1,
+      "ticket_medio": 5463.6
+    },
+    {
+      "ano_mes": "2025-02",
+      "categoria": "Headset",
+      "estado": "RJ",
+      "quantidade_total": 2,
+      "receita_total": 3253.26,
+      "pedidos_total": 1,
+      "ticket_medio": 3253.26
+    },
+    {
+      "ano_mes": "2025-02",
+      "categoria": "Monitor",
+      "estado": "MG",
+      "quantidade_total": 5,
+      "receita_total": 694.3,
+      "pedidos_total": 1,
+      "ticket_medio": 694.3
+    },
+    {
+      "ano_mes": "2025-02",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 4,
+      "receita_total": 16781.44,
+      "pedidos_total": 1,
+      "ticket_medio": 16781.44
+    },
+    {
+      "ano_mes": "2025-02",
+      "categoria": "Mouse",
+      "estado": "MG",
+      "quantidade_total": 1,
+      "receita_total": 2523.39,
+      "pedidos_total": 1,
+      "ticket_medio": 2523.39
+    },
+    {
+      "ano_mes": "2025-02",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 3,
+      "receita_total": 10535.13,
+      "pedidos_total": 1,
+      "ticket_medio": 10535.13
+    },
+    {
+      "ano_mes": "2025-02",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 1,
+      "receita_total": 3989.92,
+      "pedidos_total": 1,
+      "ticket_medio": 3989.92
+    },
+    {
+      "ano_mes": "2025-02",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 3,
+      "receita_total": 10279.16,
+      "pedidos_total": 2,
+      "ticket_medio": 5139.58
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 4,
+      "receita_total": 9069.04,
+      "pedidos_total": 1,
+      "ticket_medio": 9069.04
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 1,
+      "receita_total": 1712.27,
+      "pedidos_total": 1,
+      "ticket_medio": 1712.27
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 4,
+      "receita_total": 6692.6,
+      "pedidos_total": 1,
+      "ticket_medio": 6692.6
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Monitor",
+      "estado": "MG",
+      "quantidade_total": 5,
+      "receita_total": 22170.95,
+      "pedidos_total": 1,
+      "ticket_medio": 22170.95
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 13598.8,
+      "pedidos_total": 1,
+      "ticket_medio": 13598.8
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 7,
+      "receita_total": 31586.05,
+      "pedidos_total": 2,
+      "ticket_medio": 15793.02
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Mouse",
+      "estado": "BA",
+      "quantidade_total": 10,
+      "receita_total": 19228.22,
+      "pedidos_total": 3,
+      "ticket_medio": 6409.41
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 1017.4,
+      "pedidos_total": 1,
+      "ticket_medio": 1017.4
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 1,
+      "receita_total": 285.86,
+      "pedidos_total": 1,
+      "ticket_medio": 285.86
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Notebook",
+      "estado": "BA",
+      "quantidade_total": 7,
+      "receita_total": 13483.15,
+      "pedidos_total": 2,
+      "ticket_medio": 6741.58
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Notebook",
+      "estado": "MG",
+      "quantidade_total": 1,
+      "receita_total": 3239.2,
+      "pedidos_total": 1,
+      "ticket_medio": 3239.2
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 3,
+      "receita_total": 14829.12,
+      "pedidos_total": 1,
+      "ticket_medio": 14829.12
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Notebook",
+      "estado": "RJ",
+      "quantidade_total": 1,
+      "receita_total": 693.89,
+      "pedidos_total": 1,
+      "ticket_medio": 693.89
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 1,
+      "receita_total": 2124.85,
+      "pedidos_total": 1,
+      "ticket_medio": 2124.85
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Teclado",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 5636.7,
+      "pedidos_total": 1,
+      "ticket_medio": 5636.7
+    },
+    {
+      "ano_mes": "2025-03",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 6,
+      "receita_total": 19360.28,
+      "pedidos_total": 2,
+      "ticket_medio": 9680.14
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Headset",
+      "estado": "BA",
+      "quantidade_total": 3,
+      "receita_total": 1877.55,
+      "pedidos_total": 1,
+      "ticket_medio": 1877.55
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Headset",
+      "estado": "PR",
+      "quantidade_total": 3,
+      "receita_total": 6459.3,
+      "pedidos_total": 1,
+      "ticket_medio": 6459.3
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Headset",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 12489.55,
+      "pedidos_total": 1,
+      "ticket_medio": 12489.55
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 11,
+      "receita_total": 34714.36,
+      "pedidos_total": 3,
+      "ticket_medio": 11571.45
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 4,
+      "receita_total": 3525.64,
+      "pedidos_total": 1,
+      "ticket_medio": 3525.64
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 10,
+      "receita_total": 36972.85,
+      "pedidos_total": 2,
+      "ticket_medio": 18486.42
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 5,
+      "receita_total": 4865.1,
+      "pedidos_total": 1,
+      "ticket_medio": 4865.1
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Mouse",
+      "estado": "BA",
+      "quantidade_total": 4,
+      "receita_total": 19624.56,
+      "pedidos_total": 1,
+      "ticket_medio": 19624.56
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Mouse",
+      "estado": "MG",
+      "quantidade_total": 6,
+      "receita_total": 22290.39,
+      "pedidos_total": 3,
+      "ticket_medio": 7430.13
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 1,
+      "receita_total": 3463.24,
+      "pedidos_total": 1,
+      "ticket_medio": 3463.24
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 3,
+      "receita_total": 7760.7,
+      "pedidos_total": 1,
+      "ticket_medio": 7760.7
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Notebook",
+      "estado": "BA",
+      "quantidade_total": 1,
+      "receita_total": 953.67,
+      "pedidos_total": 1,
+      "ticket_medio": 953.67
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Notebook",
+      "estado": "MG",
+      "quantidade_total": 3,
+      "receita_total": 8753.52,
+      "pedidos_total": 1,
+      "ticket_medio": 8753.52
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 3,
+      "receita_total": 1220.28,
+      "pedidos_total": 1,
+      "ticket_medio": 1220.28
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Notebook",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 4165.45,
+      "pedidos_total": 1,
+      "ticket_medio": 4165.45
+    },
+    {
+      "ano_mes": "2025-04",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 4,
+      "receita_total": 13404.0,
+      "pedidos_total": 1,
+      "ticket_medio": 13404.0
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Headset",
+      "estado": "RJ",
+      "quantidade_total": 3,
+      "receita_total": 12477.6,
+      "pedidos_total": 1,
+      "ticket_medio": 12477.6
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 1,
+      "receita_total": 3981.36,
+      "pedidos_total": 1,
+      "ticket_medio": 3981.36
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 1,
+      "receita_total": 1997.08,
+      "pedidos_total": 1,
+      "ticket_medio": 1997.08
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 1,
+      "receita_total": 3508.67,
+      "pedidos_total": 1,
+      "ticket_medio": 3508.67
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 3,
+      "receita_total": 2493.66,
+      "pedidos_total": 1,
+      "ticket_medio": 2493.66
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 4904.7,
+      "pedidos_total": 1,
+      "ticket_medio": 4904.7
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Notebook",
+      "estado": "MG",
+      "quantidade_total": 4,
+      "receita_total": 3684.16,
+      "pedidos_total": 1,
+      "ticket_medio": 3684.16
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 6,
+      "receita_total": 23238.12,
+      "pedidos_total": 2,
+      "ticket_medio": 11619.06
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 4,
+      "receita_total": 19107.36,
+      "pedidos_total": 1,
+      "ticket_medio": 19107.36
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 1,
+      "receita_total": 3650.08,
+      "pedidos_total": 1,
+      "ticket_medio": 3650.08
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Teclado",
+      "estado": "RJ",
+      "quantidade_total": 4,
+      "receita_total": 10817.11,
+      "pedidos_total": 2,
+      "ticket_medio": 5408.56
+    },
+    {
+      "ano_mes": "2025-05",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 2,
+      "receita_total": 6580.24,
+      "pedidos_total": 1,
+      "ticket_medio": 6580.24
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 4,
+      "receita_total": 408.12,
+      "pedidos_total": 1,
+      "ticket_medio": 408.12
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Headset",
+      "estado": "RJ",
+      "quantidade_total": 2,
+      "receita_total": 9324.7,
+      "pedidos_total": 1,
+      "ticket_medio": 9324.7
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 2,
+      "receita_total": 417.38,
+      "pedidos_total": 1,
+      "ticket_medio": 417.38
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 6,
+      "receita_total": 15786.48,
+      "pedidos_total": 2,
+      "ticket_medio": 7893.24
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 5,
+      "receita_total": 18281.9,
+      "pedidos_total": 1,
+      "ticket_medio": 18281.9
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 3,
+      "receita_total": 10107.44,
+      "pedidos_total": 2,
+      "ticket_medio": 5053.72
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Notebook",
+      "estado": "RJ",
+      "quantidade_total": 1,
+      "receita_total": 4326.58,
+      "pedidos_total": 1,
+      "ticket_medio": 4326.58
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 5,
+      "receita_total": 17859.23,
+      "pedidos_total": 2,
+      "ticket_medio": 8929.62
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Teclado",
+      "estado": "BA",
+      "quantidade_total": 4,
+      "receita_total": 17429.28,
+      "pedidos_total": 2,
+      "ticket_medio": 8714.64
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 1,
+      "receita_total": 3519.65,
+      "pedidos_total": 1,
+      "ticket_medio": 3519.65
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Teclado",
+      "estado": "RJ",
+      "quantidade_total": 3,
+      "receita_total": 9748.38,
+      "pedidos_total": 1,
+      "ticket_medio": 9748.38
+    },
+    {
+      "ano_mes": "2025-06",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 3,
+      "receita_total": 13446.54,
+      "pedidos_total": 1,
+      "ticket_medio": 13446.54
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 4,
+      "receita_total": 19397.8,
+      "pedidos_total": 1,
+      "ticket_medio": 19397.8
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Headset",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 20636.35,
+      "pedidos_total": 1,
+      "ticket_medio": 20636.35
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 2,
+      "receita_total": 5837.4,
+      "pedidos_total": 2,
+      "ticket_medio": 2918.7
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 4,
+      "receita_total": 17518.64,
+      "pedidos_total": 1,
+      "ticket_medio": 17518.64
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 7,
+      "receita_total": 21128.8,
+      "pedidos_total": 2,
+      "ticket_medio": 10564.4
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 8,
+      "receita_total": 18378.98,
+      "pedidos_total": 2,
+      "ticket_medio": 9189.49
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Mouse",
+      "estado": "BA",
+      "quantidade_total": 4,
+      "receita_total": 5253.76,
+      "pedidos_total": 1,
+      "ticket_medio": 5253.76
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Mouse",
+      "estado": "RJ",
+      "quantidade_total": 2,
+      "receita_total": 7961.22,
+      "pedidos_total": 1,
+      "ticket_medio": 7961.22
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 6,
+      "receita_total": 22417.47,
+      "pedidos_total": 2,
+      "ticket_medio": 11208.74
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Notebook",
+      "estado": "BA",
+      "quantidade_total": 2,
+      "receita_total": 5397.48,
+      "pedidos_total": 2,
+      "ticket_medio": 2698.74
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 1,
+      "receita_total": 2102.36,
+      "pedidos_total": 1,
+      "ticket_medio": 2102.36
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Teclado",
+      "estado": "BA",
+      "quantidade_total": 5,
+      "receita_total": 16131.83,
+      "pedidos_total": 2,
+      "ticket_medio": 8065.92
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 3,
+      "receita_total": 8818.74,
+      "pedidos_total": 1,
+      "ticket_medio": 8818.74
+    },
+    {
+      "ano_mes": "2025-07",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 1,
+      "receita_total": 282.17,
+      "pedidos_total": 1,
+      "ticket_medio": 282.17
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 5,
+      "receita_total": 13905.9,
+      "pedidos_total": 1,
+      "ticket_medio": 13905.9
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 4,
+      "receita_total": 15789.0,
+      "pedidos_total": 1,
+      "ticket_medio": 15789.0
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 4446.96,
+      "pedidos_total": 1,
+      "ticket_medio": 4446.96
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 2,
+      "receita_total": 6991.36,
+      "pedidos_total": 2,
+      "ticket_medio": 3495.68
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Mouse",
+      "estado": "MG",
+      "quantidade_total": 1,
+      "receita_total": 2209.19,
+      "pedidos_total": 1,
+      "ticket_medio": 2209.19
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 3,
+      "receita_total": 12369.87,
+      "pedidos_total": 1,
+      "ticket_medio": 12369.87
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 8,
+      "receita_total": 17059.25,
+      "pedidos_total": 3,
+      "ticket_medio": 5686.42
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 3,
+      "receita_total": 12977.64,
+      "pedidos_total": 1,
+      "ticket_medio": 12977.64
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Notebook",
+      "estado": "RJ",
+      "quantidade_total": 3,
+      "receita_total": 13072.86,
+      "pedidos_total": 1,
+      "ticket_medio": 13072.86
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 5,
+      "receita_total": 14886.35,
+      "pedidos_total": 1,
+      "ticket_medio": 14886.35
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Teclado",
+      "estado": "RJ",
+      "quantidade_total": 3,
+      "receita_total": 492.3,
+      "pedidos_total": 1,
+      "ticket_medio": 492.3
+    },
+    {
+      "ano_mes": "2025-08",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 10,
+      "receita_total": 9492.89,
+      "pedidos_total": 3,
+      "ticket_medio": 3164.3
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Headset",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 493.88,
+      "pedidos_total": 1,
+      "ticket_medio": 493.88
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 17,
+      "receita_total": 65571.74,
+      "pedidos_total": 4,
+      "ticket_medio": 16392.94
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 1,
+      "receita_total": 915.8,
+      "pedidos_total": 1,
+      "ticket_medio": 915.8
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 8650.14,
+      "pedidos_total": 1,
+      "ticket_medio": 8650.14
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Mouse",
+      "estado": "MG",
+      "quantidade_total": 5,
+      "receita_total": 8183.35,
+      "pedidos_total": 1,
+      "ticket_medio": 8183.35
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Mouse",
+      "estado": "RJ",
+      "quantidade_total": 2,
+      "receita_total": 7540.74,
+      "pedidos_total": 1,
+      "ticket_medio": 7540.74
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 6,
+      "receita_total": 12320.75,
+      "pedidos_total": 2,
+      "ticket_medio": 6160.38
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Notebook",
+      "estado": "BA",
+      "quantidade_total": 3,
+      "receita_total": 3331.45,
+      "pedidos_total": 2,
+      "ticket_medio": 1665.72
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 4,
+      "receita_total": 9832.96,
+      "pedidos_total": 1,
+      "ticket_medio": 9832.96
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Notebook",
+      "estado": "RJ",
+      "quantidade_total": 3,
+      "receita_total": 10062.36,
+      "pedidos_total": 1,
+      "ticket_medio": 10062.36
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 1,
+      "receita_total": 4904.3,
+      "pedidos_total": 1,
+      "ticket_medio": 4904.3
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Teclado",
+      "estado": "BA",
+      "quantidade_total": 6,
+      "receita_total": 23506.9,
+      "pedidos_total": 2,
+      "ticket_medio": 11753.45
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Teclado",
+      "estado": "MG",
+      "quantidade_total": 1,
+      "receita_total": 2408.73,
+      "pedidos_total": 1,
+      "ticket_medio": 2408.73
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 1,
+      "receita_total": 3595.45,
+      "pedidos_total": 1,
+      "ticket_medio": 3595.45
+    },
+    {
+      "ano_mes": "2025-09",
+      "categoria": "Teclado",
+      "estado": "RJ",
+      "quantidade_total": 4,
+      "receita_total": 4377.6,
+      "pedidos_total": 1,
+      "ticket_medio": 4377.6
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 6,
+      "receita_total": 17059.52,
+      "pedidos_total": 2,
+      "ticket_medio": 8529.76
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 8,
+      "receita_total": 27182.63,
+      "pedidos_total": 3,
+      "ticket_medio": 9060.88
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 4,
+      "receita_total": 7043.48,
+      "pedidos_total": 1,
+      "ticket_medio": 7043.48
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Monitor",
+      "estado": "MG",
+      "quantidade_total": 6,
+      "receita_total": 21946.82,
+      "pedidos_total": 2,
+      "ticket_medio": 10973.41
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 8,
+      "receita_total": 20960.7,
+      "pedidos_total": 3,
+      "ticket_medio": 6986.9
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 13848.92,
+      "pedidos_total": 2,
+      "ticket_medio": 6924.46
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 6,
+      "receita_total": 19989.13,
+      "pedidos_total": 2,
+      "ticket_medio": 9994.56
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Mouse",
+      "estado": "MG",
+      "quantidade_total": 4,
+      "receita_total": 10010.66,
+      "pedidos_total": 2,
+      "ticket_medio": 5005.33
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 7,
+      "receita_total": 15707.06,
+      "pedidos_total": 2,
+      "ticket_medio": 7853.53
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 6,
+      "receita_total": 15984.06,
+      "pedidos_total": 3,
+      "ticket_medio": 5328.02
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Notebook",
+      "estado": "BA",
+      "quantidade_total": 3,
+      "receita_total": 6260.55,
+      "pedidos_total": 1,
+      "ticket_medio": 6260.55
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Notebook",
+      "estado": "MG",
+      "quantidade_total": 3,
+      "receita_total": 14593.59,
+      "pedidos_total": 1,
+      "ticket_medio": 14593.59
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Notebook",
+      "estado": "RJ",
+      "quantidade_total": 3,
+      "receita_total": 1651.95,
+      "pedidos_total": 1,
+      "ticket_medio": 1651.95
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Teclado",
+      "estado": "MG",
+      "quantidade_total": 2,
+      "receita_total": 7850.2,
+      "pedidos_total": 1,
+      "ticket_medio": 7850.2
+    },
+    {
+      "ano_mes": "2025-10",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 5,
+      "receita_total": 14796.67,
+      "pedidos_total": 2,
+      "ticket_medio": 7398.34
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Headset",
+      "estado": "BA",
+      "quantidade_total": 2,
+      "receita_total": 1652.72,
+      "pedidos_total": 1,
+      "ticket_medio": 1652.72
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 2,
+      "receita_total": 3876.94,
+      "pedidos_total": 1,
+      "ticket_medio": 3876.94
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 666.2,
+      "pedidos_total": 1,
+      "ticket_medio": 666.2
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 10,
+      "receita_total": 35183.86,
+      "pedidos_total": 3,
+      "ticket_medio": 11727.95
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 5,
+      "receita_total": 21519.55,
+      "pedidos_total": 1,
+      "ticket_medio": 21519.55
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 1,
+      "receita_total": 3330.89,
+      "pedidos_total": 1,
+      "ticket_medio": 3330.89
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Notebook",
+      "estado": "BA",
+      "quantidade_total": 5,
+      "receita_total": 3467.45,
+      "pedidos_total": 1,
+      "ticket_medio": 3467.45
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Notebook",
+      "estado": "RJ",
+      "quantidade_total": 2,
+      "receita_total": 2547.92,
+      "pedidos_total": 1,
+      "ticket_medio": 2547.92
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 3,
+      "receita_total": 13053.27,
+      "pedidos_total": 1,
+      "ticket_medio": 13053.27
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Teclado",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 20499.45,
+      "pedidos_total": 1,
+      "ticket_medio": 20499.45
+    },
+    {
+      "ano_mes": "2025-11",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 5,
+      "receita_total": 20754.6,
+      "pedidos_total": 1,
+      "ticket_medio": 20754.6
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Headset",
+      "estado": "RJ",
+      "quantidade_total": 6,
+      "receita_total": 23440.76,
+      "pedidos_total": 2,
+      "ticket_medio": 11720.38
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 7,
+      "receita_total": 6691.65,
+      "pedidos_total": 2,
+      "ticket_medio": 3345.82
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 5,
+      "receita_total": 5078.85,
+      "pedidos_total": 1,
+      "ticket_medio": 5078.85
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 11,
+      "receita_total": 27268.34,
+      "pedidos_total": 3,
+      "ticket_medio": 9089.45
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Mouse",
+      "estado": "BA",
+      "quantidade_total": 3,
+      "receita_total": 1941.0,
+      "pedidos_total": 1,
+      "ticket_medio": 1941.0
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Mouse",
+      "estado": "MG",
+      "quantidade_total": 2,
+      "receita_total": 7982.98,
+      "pedidos_total": 1,
+      "ticket_medio": 7982.98
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Mouse",
+      "estado": "RJ",
+      "quantidade_total": 3,
+      "receita_total": 11822.22,
+      "pedidos_total": 1,
+      "ticket_medio": 11822.22
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 9,
+      "receita_total": 21798.12,
+      "pedidos_total": 2,
+      "ticket_medio": 10899.06
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 8,
+      "receita_total": 18347.93,
+      "pedidos_total": 2,
+      "ticket_medio": 9173.96
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 2,
+      "receita_total": 1056.52,
+      "pedidos_total": 1,
+      "ticket_medio": 1056.52
+    },
+    {
+      "ano_mes": "2025-12",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 8,
+      "receita_total": 10240.58,
+      "pedidos_total": 2,
+      "ticket_medio": 5120.29
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Headset",
+      "estado": "BA",
+      "quantidade_total": 11,
+      "receita_total": 26287.45,
+      "pedidos_total": 3,
+      "ticket_medio": 8762.48
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 7,
+      "receita_total": 13652.32,
+      "pedidos_total": 2,
+      "ticket_medio": 6826.16
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 2,
+      "receita_total": 5957.28,
+      "pedidos_total": 1,
+      "ticket_medio": 5957.28
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Monitor",
+      "estado": "MG",
+      "quantidade_total": 4,
+      "receita_total": 14634.64,
+      "pedidos_total": 1,
+      "ticket_medio": 14634.64
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 7,
+      "receita_total": 25637.12,
+      "pedidos_total": 2,
+      "ticket_medio": 12818.56
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 10,
+      "receita_total": 41262.23,
+      "pedidos_total": 3,
+      "ticket_medio": 13754.08
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Mouse",
+      "estado": "MG",
+      "quantidade_total": 1,
+      "receita_total": 1251.42,
+      "pedidos_total": 1,
+      "ticket_medio": 1251.42
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 6,
+      "receita_total": 17097.3,
+      "pedidos_total": 2,
+      "ticket_medio": 8548.65
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Mouse",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 18909.57,
+      "pedidos_total": 2,
+      "ticket_medio": 9454.78
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 8,
+      "receita_total": 28849.7,
+      "pedidos_total": 3,
+      "ticket_medio": 9616.57
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 4,
+      "receita_total": 4254.96,
+      "pedidos_total": 1,
+      "ticket_medio": 4254.96
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Teclado",
+      "estado": "RJ",
+      "quantidade_total": 8,
+      "receita_total": 21040.67,
+      "pedidos_total": 3,
+      "ticket_medio": 7013.56
+    },
+    {
+      "ano_mes": "2026-01",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 5,
+      "receita_total": 18450.2,
+      "pedidos_total": 1,
+      "ticket_medio": 18450.2
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 3,
+      "receita_total": 2179.68,
+      "pedidos_total": 1,
+      "ticket_medio": 2179.68
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Headset",
+      "estado": "PR",
+      "quantidade_total": 7,
+      "receita_total": 26300.48,
+      "pedidos_total": 3,
+      "ticket_medio": 8766.83
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Headset",
+      "estado": "RJ",
+      "quantidade_total": 3,
+      "receita_total": 4681.35,
+      "pedidos_total": 1,
+      "ticket_medio": 4681.35
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 3,
+      "receita_total": 8347.23,
+      "pedidos_total": 1,
+      "ticket_medio": 8347.23
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 5,
+      "receita_total": 10811.49,
+      "pedidos_total": 2,
+      "ticket_medio": 5405.74
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 13464.65,
+      "pedidos_total": 1,
+      "ticket_medio": 13464.65
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 2,
+      "receita_total": 181.44,
+      "pedidos_total": 1,
+      "ticket_medio": 181.44
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Mouse",
+      "estado": "MG",
+      "quantidade_total": 5,
+      "receita_total": 8417.67,
+      "pedidos_total": 2,
+      "ticket_medio": 4208.84
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Mouse",
+      "estado": "RJ",
+      "quantidade_total": 1,
+      "receita_total": 310.69,
+      "pedidos_total": 1,
+      "ticket_medio": 310.69
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 6,
+      "receita_total": 4144.14,
+      "pedidos_total": 2,
+      "ticket_medio": 2072.07
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Notebook",
+      "estado": "MG",
+      "quantidade_total": 2,
+      "receita_total": 1429.16,
+      "pedidos_total": 1,
+      "ticket_medio": 1429.16
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 4,
+      "receita_total": 9724.0,
+      "pedidos_total": 1,
+      "ticket_medio": 9724.0
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 5,
+      "receita_total": 808.65,
+      "pedidos_total": 1,
+      "ticket_medio": 808.65
+    },
+    {
+      "ano_mes": "2026-02",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 5,
+      "receita_total": 7973.15,
+      "pedidos_total": 1,
+      "ticket_medio": 7973.15
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Headset",
+      "estado": "BA",
+      "quantidade_total": 6,
+      "receita_total": 11270.56,
+      "pedidos_total": 2,
+      "ticket_medio": 5635.28
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 3,
+      "receita_total": 11453.91,
+      "pedidos_total": 1,
+      "ticket_medio": 11453.91
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Headset",
+      "estado": "RJ",
+      "quantidade_total": 6,
+      "receita_total": 27487.95,
+      "pedidos_total": 2,
+      "ticket_medio": 13743.98
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Headset",
+      "estado": "SP",
+      "quantidade_total": 4,
+      "receita_total": 14739.44,
+      "pedidos_total": 1,
+      "ticket_medio": 14739.44
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Monitor",
+      "estado": "MG",
+      "quantidade_total": 4,
+      "receita_total": 4064.12,
+      "pedidos_total": 1,
+      "ticket_medio": 4064.12
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 14,
+      "receita_total": 49463.87,
+      "pedidos_total": 4,
+      "ticket_medio": 12365.97
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 11,
+      "receita_total": 22184.54,
+      "pedidos_total": 3,
+      "ticket_medio": 7394.85
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Mouse",
+      "estado": "RJ",
+      "quantidade_total": 7,
+      "receita_total": 10643.59,
+      "pedidos_total": 2,
+      "ticket_medio": 5321.8
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 3,
+      "receita_total": 8259.38,
+      "pedidos_total": 2,
+      "ticket_medio": 4129.69
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Teclado",
+      "estado": "BA",
+      "quantidade_total": 4,
+      "receita_total": 1056.6,
+      "pedidos_total": 1,
+      "ticket_medio": 1056.6
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Teclado",
+      "estado": "PR",
+      "quantidade_total": 4,
+      "receita_total": 1727.6,
+      "pedidos_total": 1,
+      "ticket_medio": 1727.6
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Teclado",
+      "estado": "RJ",
+      "quantidade_total": 10,
+      "receita_total": 15644.35,
+      "pedidos_total": 2,
+      "ticket_medio": 7822.18
+    },
+    {
+      "ano_mes": "2026-03",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 3,
+      "receita_total": 11649.26,
+      "pedidos_total": 2,
+      "ticket_medio": 5824.63
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 3,
+      "receita_total": 3996.61,
+      "pedidos_total": 2,
+      "ticket_medio": 1998.3
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Headset",
+      "estado": "PR",
+      "quantidade_total": 7,
+      "receita_total": 12099.28,
+      "pedidos_total": 3,
+      "ticket_medio": 4033.09
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Monitor",
+      "estado": "MG",
+      "quantidade_total": 2,
+      "receita_total": 602.04,
+      "pedidos_total": 1,
+      "ticket_medio": 602.04
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 10,
+      "receita_total": 19770.44,
+      "pedidos_total": 3,
+      "ticket_medio": 6590.15
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 2,
+      "receita_total": 2956.94,
+      "pedidos_total": 1,
+      "ticket_medio": 2956.94
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 4,
+      "receita_total": 6964.37,
+      "pedidos_total": 2,
+      "ticket_medio": 3482.19
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Notebook",
+      "estado": "PR",
+      "quantidade_total": 5,
+      "receita_total": 18230.79,
+      "pedidos_total": 2,
+      "ticket_medio": 9115.4
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Notebook",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 5393.15,
+      "pedidos_total": 2,
+      "ticket_medio": 2696.58
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 12,
+      "receita_total": 22906.65,
+      "pedidos_total": 3,
+      "ticket_medio": 7635.55
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Teclado",
+      "estado": "BA",
+      "quantidade_total": 7,
+      "receita_total": 19808.5,
+      "pedidos_total": 3,
+      "ticket_medio": 6602.83
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Teclado",
+      "estado": "MG",
+      "quantidade_total": 1,
+      "receita_total": 2996.77,
+      "pedidos_total": 1,
+      "ticket_medio": 2996.77
+    },
+    {
+      "ano_mes": "2026-04",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 4,
+      "receita_total": 14743.84,
+      "pedidos_total": 1,
+      "ticket_medio": 14743.84
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Headset",
+      "estado": "PR",
+      "quantidade_total": 6,
+      "receita_total": 19407.27,
+      "pedidos_total": 2,
+      "ticket_medio": 9703.64
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Monitor",
+      "estado": "BA",
+      "quantidade_total": 10,
+      "receita_total": 29668.95,
+      "pedidos_total": 2,
+      "ticket_medio": 14834.47
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Monitor",
+      "estado": "RJ",
+      "quantidade_total": 3,
+      "receita_total": 380.76,
+      "pedidos_total": 1,
+      "ticket_medio": 380.76
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Monitor",
+      "estado": "SP",
+      "quantidade_total": 6,
+      "receita_total": 19319.62,
+      "pedidos_total": 3,
+      "ticket_medio": 6439.87
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Mouse",
+      "estado": "PR",
+      "quantidade_total": 9,
+      "receita_total": 6498.77,
+      "pedidos_total": 3,
+      "ticket_medio": 2166.26
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Mouse",
+      "estado": "SP",
+      "quantidade_total": 4,
+      "receita_total": 5413.56,
+      "pedidos_total": 1,
+      "ticket_medio": 5413.56
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Notebook",
+      "estado": "RJ",
+      "quantidade_total": 5,
+      "receita_total": 6572.3,
+      "pedidos_total": 1,
+      "ticket_medio": 6572.3
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Notebook",
+      "estado": "SP",
+      "quantidade_total": 10,
+      "receita_total": 27508.55,
+      "pedidos_total": 2,
+      "ticket_medio": 13754.28
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Teclado",
+      "estado": "BA",
+      "quantidade_total": 4,
+      "receita_total": 7832.52,
+      "pedidos_total": 1,
+      "ticket_medio": 7832.52
+    },
+    {
+      "ano_mes": "2026-05",
+      "categoria": "Teclado",
+      "estado": "MG",
+      "quantidade_total": 6,
+      "receita_total": 15529.23,
+      "pedidos_total": 2,
+      "ticket_medio": 7764.62
+    },
+    {
+      "ano_mes": "2026-06",
+      "categoria": "Headset",
+      "estado": "MG",
+      "quantidade_total": 2,
+      "receita_total": 4305.92,
+      "pedidos_total": 1,
+      "ticket_medio": 4305.92
+    },
+    {
+      "ano_mes": "2026-06",
+      "categoria": "Monitor",
+      "estado": "PR",
+      "quantidade_total": 4,
+      "receita_total": 9412.28,
+      "pedidos_total": 1,
+      "ticket_medio": 9412.28
+    },
+    {
+      "ano_mes": "2026-06",
+      "categoria": "Teclado",
+      "estado": "BA",
+      "quantidade_total": 1,
+      "receita_total": 3286.72,
+      "pedidos_total": 1,
+      "ticket_medio": 3286.72
+    },
+    {
+      "ano_mes": "2026-06",
+      "categoria": "Teclado",
+      "estado": "SP",
+      "quantidade_total": 5,
+      "receita_total": 10824.9,
+      "pedidos_total": 1,
+      "ticket_medio": 10824.9
+    }
+  ],
+  "resumoVendedor": [
+    {
+      "vendedor": "Marcos",
+      "pedidos_total": 218,
+      "pedidos_pagos": 69,
+      "pedidos_pendentes": 61,
+      "pedidos_cancelados": 88,
+      "receita_total": 519763.27,
+      "ticket_medio": 7532.8,
+      "taxa_cancelamento_pct": 40.4
+    },
+    {
+      "vendedor": "Diego",
+      "pedidos_total": 220,
+      "pedidos_pagos": 74,
+      "pedidos_pendentes": 83,
+      "pedidos_cancelados": 63,
+      "receita_total": 519034.2,
+      "ticket_medio": 7013.98,
+      "taxa_cancelamento_pct": 28.6
+    },
+    {
+      "vendedor": "Patrícia",
+      "pedidos_total": 182,
+      "pedidos_pagos": 65,
+      "pedidos_pendentes": 63,
+      "pedidos_cancelados": 54,
+      "receita_total": 509784.67,
+      "ticket_medio": 7842.84,
+      "taxa_cancelamento_pct": 29.7
+    },
+    {
+      "vendedor": "Renata",
+      "pedidos_total": 207,
+      "pedidos_pagos": 67,
+      "pedidos_pendentes": 75,
+      "pedidos_cancelados": 65,
+      "receita_total": 452912.83,
+      "ticket_medio": 6759.89,
+      "taxa_cancelamento_pct": 31.4
+    },
+    {
+      "vendedor": "João",
+      "pedidos_total": 173,
+      "pedidos_pagos": 55,
+      "pedidos_pendentes": 55,
+      "pedidos_cancelados": 63,
+      "receita_total": 449746.23,
+      "ticket_medio": 8177.2,
+      "taxa_cancelamento_pct": 36.4
+    }
+  ],
+  "resumoStatusMensal": [
+    {
+      "ano_mes": "2025-01",
+      "status": "Cancelado",
+      "pedidos_total": 22,
+      "valor_total": 189037.58
+    },
+    {
+      "ano_mes": "2025-01",
+      "status": "Pago",
+      "pedidos_total": 18,
+      "valor_total": 73461.64
+    },
+    {
+      "ano_mes": "2025-01",
+      "status": "Pendente",
+      "pedidos_total": 20,
+      "valor_total": 183323.03
+    },
+    {
+      "ano_mes": "2025-02",
+      "status": "Cancelado",
+      "pedidos_total": 24,
+      "valor_total": 178253.33
+    },
+    {
+      "ano_mes": "2025-02",
+      "status": "Pago",
+      "pedidos_total": 9,
+      "valor_total": 53520.2
+    },
+    {
+      "ano_mes": "2025-02",
+      "status": "Pendente",
+      "pedidos_total": 15,
+      "valor_total": 140729.01
+    },
+    {
+      "ano_mes": "2025-03",
+      "status": "Cancelado",
+      "pedidos_total": 15,
+      "valor_total": 119047.37
+    },
+    {
+      "ano_mes": "2025-03",
+      "status": "Pago",
+      "pedidos_total": 21,
+      "valor_total": 164728.38
+    },
+    {
+      "ano_mes": "2025-03",
+      "status": "Pendente",
+      "pedidos_total": 13,
+      "valor_total": 95407.05
+    },
+    {
+      "ano_mes": "2025-04",
+      "status": "Cancelado",
+      "pedidos_total": 20,
+      "valor_total": 168580.01
+    },
+    {
+      "ano_mes": "2025-04",
+      "status": "Pago",
+      "pedidos_total": 21,
+      "valor_total": 182540.16
+    },
+    {
+      "ano_mes": "2025-04",
+      "status": "Pendente",
+      "pedidos_total": 17,
+      "valor_total": 94098.72
+    },
+    {
+      "ano_mes": "2025-05",
+      "status": "Cancelado",
+      "pedidos_total": 13,
+      "valor_total": 97734.15
+    },
+    {
+      "ano_mes": "2025-05",
+      "status": "Pago",
+      "pedidos_total": 14,
+      "valor_total": 96440.14
+    },
+    {
+      "ano_mes": "2025-05",
+      "status": "Pendente",
+      "pedidos_total": 25,
+      "valor_total": 166291.5
+    },
+    {
+      "ano_mes": "2025-06",
+      "status": "Cancelado",
+      "pedidos_total": 19,
+      "valor_total": 126742.93
+    },
+    {
+      "ano_mes": "2025-06",
+      "status": "Pago",
+      "pedidos_total": 16,
+      "valor_total": 120655.68
+    },
+    {
+      "ano_mes": "2025-06",
+      "status": "Pendente",
+      "pedidos_total": 21,
+      "valor_total": 106758.65
+    },
+    {
+      "ano_mes": "2025-07",
+      "status": "Cancelado",
+      "pedidos_total": 20,
+      "valor_total": 118457.52
+    },
+    {
+      "ano_mes": "2025-07",
+      "status": "Pago",
+      "pedidos_total": 20,
+      "valor_total": 171263.0
+    },
+    {
+      "ano_mes": "2025-07",
+      "status": "Pendente",
+      "pedidos_total": 25,
+      "valor_total": 208799.04
+    },
+    {
+      "ano_mes": "2025-08",
+      "status": "Cancelado",
+      "pedidos_total": 18,
+      "valor_total": 123034.72
+    },
+    {
+      "ano_mes": "2025-08",
+      "status": "Pago",
+      "pedidos_total": 17,
+      "valor_total": 123693.57
+    },
+    {
+      "ano_mes": "2025-08",
+      "status": "Pendente",
+      "pedidos_total": 13,
+      "valor_total": 81965.28
+    },
+    {
+      "ano_mes": "2025-09",
+      "status": "Cancelado",
+      "pedidos_total": 20,
+      "valor_total": 110778.23
+    },
+    {
+      "ano_mes": "2025-09",
+      "status": "Pago",
+      "pedidos_total": 21,
+      "valor_total": 165696.15
+    },
+    {
+      "ano_mes": "2025-09",
+      "status": "Pendente",
+      "pedidos_total": 15,
+      "valor_total": 167291.43
+    },
+    {
+      "ano_mes": "2025-10",
+      "status": "Cancelado",
+      "pedidos_total": 14,
+      "valor_total": 128202.76
+    },
+    {
+      "ano_mes": "2025-10",
+      "status": "Pago",
+      "pedidos_total": 28,
+      "valor_total": 214885.94
+    },
+    {
+      "ano_mes": "2025-10",
+      "status": "Pendente",
+      "pedidos_total": 25,
+      "valor_total": 165800.63
+    },
+    {
+      "ano_mes": "2025-11",
+      "status": "Cancelado",
+      "pedidos_total": 21,
+      "valor_total": 189496.25
+    },
+    {
+      "ano_mes": "2025-11",
+      "status": "Pago",
+      "pedidos_total": 13,
+      "valor_total": 126552.85
+    },
+    {
+      "ano_mes": "2025-11",
+      "status": "Pendente",
+      "pedidos_total": 24,
+      "valor_total": 198791.27
+    },
+    {
+      "ano_mes": "2025-12",
+      "status": "Cancelado",
+      "pedidos_total": 24,
+      "valor_total": 190124.54
+    },
+    {
+      "ano_mes": "2025-12",
+      "status": "Pago",
+      "pedidos_total": 18,
+      "valor_total": 135668.95
+    },
+    {
+      "ano_mes": "2025-12",
+      "status": "Pendente",
+      "pedidos_total": 21,
+      "valor_total": 162653.9
+    },
+    {
+      "ano_mes": "2026-01",
+      "status": "Cancelado",
+      "pedidos_total": 20,
+      "valor_total": 150789.83
+    },
+    {
+      "ano_mes": "2026-01",
+      "status": "Pago",
+      "pedidos_total": 25,
+      "valor_total": 237284.86
+    },
+    {
+      "ano_mes": "2026-01",
+      "status": "Pendente",
+      "pedidos_total": 22,
+      "valor_total": 165131.25
+    },
+    {
+      "ano_mes": "2026-02",
+      "status": "Cancelado",
+      "pedidos_total": 13,
+      "valor_total": 130853.1
+    },
+    {
+      "ano_mes": "2026-02",
+      "status": "Pago",
+      "pedidos_total": 19,
+      "valor_total": 98773.78
+    },
+    {
+      "ano_mes": "2026-02",
+      "status": "Pendente",
+      "pedidos_total": 18,
+      "valor_total": 153807.11
+    },
+    {
+      "ano_mes": "2026-03",
+      "status": "Cancelado",
+      "pedidos_total": 18,
+      "valor_total": 150030.07
+    },
+    {
+      "ano_mes": "2026-03",
+      "status": "Pago",
+      "pedidos_total": 24,
+      "valor_total": 189645.17
+    },
+    {
+      "ano_mes": "2026-03",
+      "status": "Pendente",
+      "pedidos_total": 19,
+      "valor_total": 148850.84
+    },
+    {
+      "ano_mes": "2026-04",
+      "status": "Cancelado",
+      "pedidos_total": 17,
+      "valor_total": 133798.49
+    },
+    {
+      "ano_mes": "2026-04",
+      "status": "Pago",
+      "pedidos_total": 24,
+      "valor_total": 130469.38
+    },
+    {
+      "ano_mes": "2026-04",
+      "status": "Pendente",
+      "pedidos_total": 13,
+      "valor_total": 113131.11
+    },
+    {
+      "ano_mes": "2026-05",
+      "status": "Cancelado",
+      "pedidos_total": 22,
+      "valor_total": 139718.43
+    },
+    {
+      "ano_mes": "2026-05",
+      "status": "Pago",
+      "pedidos_total": 18,
+      "valor_total": 138131.53
+    },
+    {
+      "ano_mes": "2026-05",
+      "status": "Pendente",
+      "pedidos_total": 16,
+      "valor_total": 136556.98
+    },
+    {
+      "ano_mes": "2026-06",
+      "status": "Cancelado",
+      "pedidos_total": 13,
+      "valor_total": 111056.83
+    },
+    {
+      "ano_mes": "2026-06",
+      "status": "Pago",
+      "pedidos_total": 4,
+      "valor_total": 27829.82
+    },
+    {
+      "ano_mes": "2026-06",
+      "status": "Pendente",
+      "pedidos_total": 15,
+      "valor_total": 116674.68
+    }
+  ]
+}
