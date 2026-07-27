@@ -9,6 +9,7 @@
     "postbuild": "node scripts/copy-spa-fallback.js",
     "lint": "oxlint",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
