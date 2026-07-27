@@ -186,7 +186,7 @@ export const translations = {
     contact: {
       kicker: 'Contato',
       heading: 'Vamos conversar',
-      subheading: 'Responda rápido pelos canais abaixo.',
+      subheading: 'Respondo rápido pelos canais abaixo.',
       items: [
         {
           id: 'linkedin',
